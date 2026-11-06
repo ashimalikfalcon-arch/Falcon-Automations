@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Falcon Automation & Control Pvt. Ltd. | Industrial Automation Solutions</title>
+<meta name="description" content="Falcon Automation & Control Pvt. Ltd. — PLC, HMI, SCADA, servo, VFD, control panels, pneumatics and complete system integration for modern industry.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="aurora" aria-hidden="true"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<!-- ===================== NAVIGATION ===================== -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="brand" aria-label="Falcon Automation & Control — Home">
+      <!-- Put your original logo file in this folder and name it falcon-logo.png -->
+      <img class="logo-img" src="falcon-logo.png" alt="Falcon Automation & Control Pvt. Ltd."
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <span class="logo-fallback">
+        <svg viewBox="0 0 48 48" aria-hidden="true">
+          <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3ad6ff"/><stop offset=".5" stop-color="#4f8bff"/><stop offset="1" stop-color="#b46cff"/></linearGradient></defs>
+          <path d="M4 30 C14 18 26 12 44 8 C36 16 32 22 30 30 C26 26 20 26 14 30 C12 34 10 38 8 42 C8 36 6 33 4 30Z" fill="url(#lg)"/>
+          <circle cx="36" cy="14" r="1.8" fill="#04060f"/>
+        </svg>
+        <span><b>FALCON</b><small>Automation &amp; Control</small></span>
+      </span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#solutions">Solutions</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#partners">Partners</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#training">Training</a></li>
+      <li><a href="#portals">Portals</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <div class="clock" aria-live="off">
+        <span class="time"><span class="dot"></span><span id="clockTime">--:--:--</span></span>
+        <span class="date" id="clockDate">—</span>
+      </div>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== MANAGING DIRECTOR FEATURE ===================== -->
+<section class="md-feature" id="home">
+  <div class="container">
+    <div class="md-card glass reveal">
+      <div class="portrait">
+        <!-- Put the original portrait in this folder and name it sandeep-kumar.jpg -->
+        <img src="sandeep-kumar.jpg" alt="Sandeep Kumar, Managing Director"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="initials grad-text">SK</div>
+      </div>
+      <div class="md-info">
+        <span class="eyebrow">Managing Director</span>
+        <h2>Sandeep Kumar</h2>
+        <div class="role">Managing Director · Falcon Automation &amp; Control Pvt. Ltd.</div>
+        <p>Sandeep Kumar leads Falcon with a clear mission: to help manufacturers run smarter, safer and more efficient plants. Under his direction, Falcon delivers end-to-end automation — from PLC programming and SCADA design to precision motion control and turnkey control panels — built on world-class technology and a deep understanding of the shop floor.</p>
+      </div>
+      <div class="md-actions">
+        <a href="#contact" class="btn btn-primary">Connect with Sandeep</a>
+        <a href="#leadership" class="btn btn-ghost">Leadership Message</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge reveal"><i>Industry 4.0</i> Intelligent automation for modern manufacturing</div>
+      <h1 class="reveal d1">Engineering the <span class="grad-text">future of industrial automation</span></h1>
+      <p class="lead reveal d2">Falcon Automation &amp; Control designs, integrates and supports automation systems that keep production lines running — precise, connected and built to perform around the clock.</p>
+      <div class="hero-ctas reveal d3">
+        <a href="#solutions" class="btn btn-primary">Explore Solutions
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#contact" class="btn btn-ghost">Request a Consultation</a>
+      </div>
+      <div class="hero-tags reveal d3">
+        <span>PLC</span><span>HMI</span><span>SCADA</span><span>Servo</span><span>VFD</span><span>Control Panels</span><span>Pneumatics</span>
+      </div>
+    </div>
+
+    <!-- Animated factory scene -->
+    <div class="scene-wrap reveal d2">
+      <svg class="scene glass" viewBox="0 0 700 460" role="img" aria-label="Animated factory with robotic arms and a conveyor belt moving packages">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1545"/><stop offset="1" stop-color="#050816"/></linearGradient>
+          <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8fb3ff"/><stop offset="1" stop-color="#5a5fd6"/></linearGradient>
+          <linearGradient id="metal2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3ad6ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+          <linearGradient id="box" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f4dbb"/><stop offset="1" stop-color="#1a2770"/></linearGradient>
+          <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <rect width="700" height="460" fill="url(#sky)"/>
+        <!-- factory silhouette -->
+        <g fill="#0f1a4d" opacity=".9">
+          <path d="M0 250 L0 170 L60 140 L60 170 L120 140 L120 170 L180 140 L180 250Z"/>
+          <rect x="200" y="120" width="26" height="130"/><rect x="240" y="150" width="20" height="100"/>
+          <path d="M480 250 L480 160 L540 130 L540 160 L600 130 L600 160 L660 130 L660 160 L700 150 L700 250Z"/>
+        </g>
+        <g fill="#3ad6ff" opacity=".55">
+          <rect x="20" y="200" width="14" height="10" class="blink"/><rect x="70" y="200" width="14" height="10" class="blink b2"/>
+          <rect x="130" y="200" width="14" height="10" class="blink b3"/><rect x="510" y="190" width="14" height="10" class="blink b2"/>
+          <rect x="570" y="190" width="14" height="10" class="blink"/><rect x="630" y="190" width="14" height="10" class="blink b3"/>
+        </g>
+        <!-- gears -->
+        <g transform="translate(330 120)" opacity=".5">
+          <g class="gear"><circle r="30" fill="none" stroke="#4f8bff" stroke-width="8" stroke-dasharray="10 6"/><circle r="12" fill="none" stroke="#4f8bff" stroke-width="4"/></g>
+        </g>
+        <g transform="translate(378 92)" opacity=".45">
+          <g class="gear rev"><circle r="18" fill="none" stroke="#8b5cf6" stroke-width="6" stroke-dasharray="7 5"/><circle r="6" fill="#8b5cf6"/></g>
+        </g>
+        <!-- floor -->
+        <rect x="0" y="380" width="700" height="80" fill="#060a20"/>
+        <line x1="0" y1="380" x2="700" y2="380" stroke="#4f8bff" stroke-opacity=".35"/>
+
+        <!-- conveyor -->
+        <rect x="70" y="316" width="560" height="26" rx="13" fill="#141f55" stroke="#4f8bff" stroke-opacity=".5"/>
+        <line x1="84" y1="316" x2="616" y2="316" stroke="#8fb3ff" stroke-width="3" class="belt-line"/>
+        <g fill="#0a1236" stroke="#8fb3ff" stroke-width="2">
+          <circle cx="84" cy="329" r="10" class="roller"/><circle cx="616" cy="329" r="10" class="roller"/>
+        </g>
+        <g fill="#8fb3ff"><rect x="90" y="342" width="8" height="38"/><rect x="340" y="342" width="8" height="38"/><rect x="602" y="342" width="8" height="38"/></g>
+
+        <!-- packages -->
+        <g class="pkg"><g transform="translate(70 284)"><rect width="38" height="32" rx="4" fill="url(#box)" stroke="#6f95ff"/><line x1="19" y1="0" x2="19" y2="32" stroke="#6f95ff"/><rect x="6" y="8" width="8" height="5" fill="#3ad6ff"/></g></g>
+        <g class="pkg p2"><g transform="translate(70 290)"><rect width="32" height="26" rx="4" fill="url(#box)" stroke="#a78bfa"/><line x1="0" y1="13" x2="32" y2="13" stroke="#a78bfa"/></g></g>
+        <g class="pkg p3"><g transform="translate(70 280)"><rect width="42" height="36" rx="4" fill="url(#box)" stroke="#6f95ff"/><line x1="21" y1="0" x2="21" y2="36" stroke="#6f95ff"/><rect x="26" y="24" width="10" height="6" fill="#b46cff"/></g></g>
+
+        <!-- vision scanner -->
+        <g transform="translate(330 230)">
+          <rect x="-26" y="-12" width="52" height="16" rx="4" fill="#141f55" stroke="#4f8bff"/>
+          <polygon points="-16,4 16,4 34,84 -34,84" fill="#3ad6ff" opacity=".08"/>
+          <line x1="-24" y1="20" x2="24" y2="20" stroke="#3ad6ff" stroke-width="2" class="scan" filter="url(#glow)"/>
+          <circle cx="0" cy="-4" r="3" fill="#3ee6a8" class="blink"/>
+        </g>
+
+        <!-- robotic arm A -->
+        <g class="arm-a">
+          <rect x="145" y="370" width="60" height="12" rx="4" fill="#1a2670"/>
+          <path d="M155 370 L160 300 L190 300 L195 370Z" fill="url(#metal)" opacity=".9"/>
+          <circle cx="175" cy="300" r="14" fill="#0b1236" stroke="url(#metal2)" stroke-width="4"/>
+          <g class="seg1">
+            <rect x="166" y="205" width="18" height="96" rx="9" fill="url(#metal)"/>
+            <circle cx="175" cy="205" r="11" fill="#0b1236" stroke="url(#metal2)" stroke-width="4"/>
+            <g class="seg2">
+              <rect x="170" y="130" width="12" height="76" rx="6" fill="url(#metal2)"/>
+              <circle cx="176" cy="130" r="7" fill="#0b1236" stroke="#8fb3ff" stroke-width="3"/>
+              <path d="M168 128 L160 112 M184 128 L192 112" stroke="#cfe0ff" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="176" cy="122" r="3" fill="#3ad6ff" filter="url(#glow)" class="spark"/>
+            </g>
+          </g>
+        </g>
+
+        <!-- robotic arm B -->
+        <g class="arm-b">
+          <rect x="495" y="370" width="60" height="12" rx="4" fill="#1a2670"/>
+          <path d="M505 370 L510 300 L540 300 L545 370Z" fill="url(#metal)" opacity=".9"/>
+          <circle cx="525" cy="300" r="14" fill="#0b1236" stroke="url(#metal2)" stroke-width="4"/>
+          <g class="seg1">
+            <rect x="516" y="205" width="18" height="96" rx="9" fill="url(#metal)"/>
+            <circle cx="525" cy="205" r="11" fill="#0b1236" stroke="url(#metal2)" stroke-width="4"/>
+            <g class="seg2">
+              <rect x="519" y="130" width="12" height="76" rx="6" fill="url(#metal2)"/>
+              <circle cx="525" cy="130" r="7" fill="#0b1236" stroke="#8fb3ff" stroke-width="3"/>
+              <rect x="515" y="110" width="20" height="14" rx="3" fill="#cfe0ff"/>
+            </g>
+          </g>
+        </g>
+
+        <!-- control cabinet -->
+        <g transform="translate(610 250)">
+          <rect width="70" height="130" rx="6" fill="#101a4a" stroke="#4f8bff" stroke-opacity=".6"/>
+          <rect x="10" y="12" width="50" height="30" rx="3" fill="#0a1236" stroke="#3ad6ff" stroke-opacity=".6"/>
+          <polyline points="14,34 24,26 32,30 42,18 56,24" fill="none" stroke="#3ad6ff" stroke-width="2"/>
+          <circle cx="20" cy="60" r="5" fill="#3ee6a8" class="blink"/><circle cx="35" cy="60" r="5" fill="#4f8bff" class="blink b2"/><circle cx="50" cy="60" r="5" fill="#b46cff" class="blink b3"/>
+          <rect x="12" y="78" width="46" height="4" rx="2" fill="#4f8bff" opacity=".5"/><rect x="12" y="90" width="34" height="4" rx="2" fill="#4f8bff" opacity=".5"/><rect x="12" y="102" width="40" height="4" rx="2" fill="#4f8bff" opacity=".5"/>
+        </g>
+        <text x="24" y="430" font-family="Space Grotesk, sans-serif" font-size="12" fill="#6b7499" letter-spacing="2">LINE 01 · AUTO MODE</text>
+        <circle cx="16" cy="426" r="4" fill="#3ee6a8" class="blink"/>
+      </svg>
+
+      <div class="hud h1 glass"><small>Line Status</small><b>Running · Auto</b><div class="bar"><i></i></div></div>
+      <div class="hud h2 glass"><small>System</small><b>PLC ↔ SCADA linked</b><small>Real-time monitoring</small></div>
+    </div>
+  </div>
+  <svg class="waves" viewBox="0 0 1440 180" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 110 C240 60 480 160 720 110 C960 60 1200 160 1500 100 L1500 180 L0 180Z" fill="rgba(79,139,255,.08)"/>
+    <path d="M0 140 C300 90 560 170 820 130 C1080 90 1260 160 1500 120 L1500 180 L0 180Z" fill="rgba(139,92,246,.08)"/>
+  </svg>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about">
+  <div class="container about-grid">
+    <div class="about-text">
+      <span class="eyebrow reveal">About Us</span>
+      <div class="section-head" style="margin-bottom:24px">
+        <h2 class="reveal d1">Precision automation, <span class="grad-text">delivered with integrity</span></h2>
+      </div>
+      <p class="reveal d2">Falcon Automation &amp; Control Pvt. Ltd. is an industrial automation and control solutions company. We help manufacturers modernise machines and production lines with reliable control systems, intelligent monitoring and expert engineering support.</p>
+      <p class="reveal d2">From the first site survey to commissioning and after-sales service, our engineers work as an extension of your team — selecting the right hardware, writing clean and maintainable control logic, and building systems that operators trust.</p>
+      <a href="#solutions" class="btn btn-ghost reveal d3" style="margin-top:10px">See what we do</a>
+    </div>
+    <div class="pillars">
+      <div class="pillar glass reveal d1">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h4>Reliability first</h4><p>Robust designs and tested logic for maximum uptime.</p>
+      </div>
+      <div class="pillar glass reveal d2">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg></div>
+        <h4>End-to-end integration</h4><p>One partner from design and panels to commissioning.</p>
+      </div>
+      <div class="pillar glass reveal d2">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div>
+        <h4>Data-driven plants</h4><p>Real-time visibility with HMI and SCADA systems.</p>
+      </div>
+      <div class="pillar glass reveal d3">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M21 21v-2a4 4 0 00-3-3.9M16 3.1a4 4 0 010 7.8"/></svg></div>
+        <h4>Skilled people</h4><p>Hands-on engineers and a training programme for new talent.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SOLUTIONS ===================== -->
+<section id="solutions">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow reveal">Solutions</span>
+      <h2 class="reveal d1">Complete control, <span class="grad-text">from sensor to SCADA</span></h2>
+      <p class="reveal d2">Specialised capabilities that work together as one integrated, dependable system.</p>
+    </div>
+    <div class="cards">
+      <article class="card glass reveal">
+        <span class="num">01</span>
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h2M7 12h2M7 16h2M13 8h4M13 12h4M13 16h4"/></svg></div>
+        <h3>PLC Programming</h3><p>Structured, well-documented control logic for machines and process lines.</p>
+        <ul><li>New system design &amp; migration</li><li>Interlocks, safety &amp; sequencing</li><li>Troubleshooting &amp; upgrades</li></ul>
+      </article>
+      <article class="card glass reveal d1">
+        <span class="num">02</span>
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4M6 13l3-3 3 2 5-5"/></svg></div>
+        <h3>HMI Development</h3><p>Clear, intuitive operator screens that make complex machines simple to run.</p>
+        <ul><li>Alarm &amp; recipe management</li><li>Trend and diagnostic screens</li><li>Multi-language interfaces</li></ul>
+      </article>
+      <article class="card glass reveal d2">
+        <span class="num">03</span>
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v5M12 12l-6 5M12 12l6 5"/></svg></div>
+        <h3>SCADA Systems</h3><p>Plant-wide monitoring, data logging and reporting from a single control room.</p>
+        <ul><li>Real-time dashboards</li><li>Historical data &amp; reports</li><li>Remote access &amp; alerts</li></ul>
+      </article>
+      <article class="card glass reveal">
+        <span class="num">04</span>
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 4v3M12 17v3M4 12h3M17 12h3"/></svg></div>
+        <h3>Servo Systems</h3><p>High-precision motion control for positioning, cutting, winding and packaging.</p>
+        <ul><li>Multi-axis synchronisation</li><li>Tuning &amp; optimisation</li><li>Motion profile design</li></ul>
+      </article>
+      <article class="card glass reveal d1">
+        <span class="num">05</span>
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></div>
+        <h3>VFD Solutions</h3><p>Variable frequency drives for energy savings and smooth motor control.</p>
+        <ul><li>Drive selection &amp; sizing</li><li>Parameterisation &amp; networking</li><li>Energy-efficiency retrofits</li></ul>
+      </article>
+      <article class="card glass reveal d2">
+        <span class="num">06</span>
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8"/><circle cx="9" cy="16" r="1.5"/><circle cx="15" cy="16" r="1.5"/></svg></div>
+        <h3>Control Panels</h3><p>Custom-built electrical and automation panels, wired neatly and fully tested.</p>
+        <ul><li>MCC, PLC &amp; drive panels</li><li>Clean wiring &amp; documentation</li><li>Factory acceptance testing</li></ul>
+      </article>
+      <article class="card glass reveal">
+        <span class="num">07</span>
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="9" width="12" height="6" rx="1"/><path d="M15 12h6M18 9v6M6 9V6M12 9V6M6 15v3M12 15v3"/></svg></div>
+        <h3>Pneumatics</h3><p>Efficient pneumatic circuits for fast, dependable actuation and handling.</p>
+        <ul><li>Cylinders, valves &amp; FRLs</li><li>Air-system optimisation</li><li>Pick-and-place solutions</li></ul>
+      </article>
+      <article class="card glass reveal d1">
+        <span class="num">08</span>
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="8" height="8" rx="2"/><rect x="14" y="2" width="8" height="8" rx="2"/><rect x="8" y="14" width="8" height="8" rx="2"/><path d="M6 10v2h12v-2M12 12v2"/></svg></div>
+        <h3>System Integration</h3><p>Turnkey projects that bring every component together into one working system.</p>
+        <ul><li>Design to commissioning</li><li>Industrial networking</li><li>Lifecycle support</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRODUCTS ===================== -->
+<section id="products">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow reveal">Products</span>
+      <h2 class="reveal d1">Industrial-grade <span class="grad-text">automation hardware</span></h2>
+      <p class="reveal d2">We supply, configure and support proven products from leading global brands.</p>
+    </div>
+    <div class="tabs reveal" role="tablist">
+      <button class="tab active" data-tab="plc" role="tab">PLC</button>
+      <button class="tab" data-tab="hmi" role="tab">HMI</button>
+      <button class="tab" data-tab="servo" role="tab">Servo</button>
+      <button class="tab" data-tab="vfd" role="tab">VFD</button>
+      <button class="tab" data-tab="pneu" role="tab">Pneumatics</button>
+    </div>
+
+    <div class="product-panel glass active" id="tab-plc">
+      <div>
+        <h3>Programmable Logic Controllers</h3>
+        <p>Compact and modular PLCs that act as the brain of your machine — fast, reliable and expandable as your production grows.</p>
+        <div class="spec"><div><b>Compact &amp; modular</b>Sized for any machine</div><div><b>Expandable I/O</b>Digital, analog &amp; special</div><div><b>Networking</b>Industrial Ethernet &amp; fieldbus</div><div><b>Support</b>Programming &amp; spares</div></div>
+      </div>
+      <div class="product-visual"><svg viewBox="0 0 240 160"><rect x="20" y="30" width="200" height="100" rx="8" fill="#14205a" stroke="#4f8bff"/><rect x="34" y="44" width="40" height="72" rx="4" fill="#0a1236" stroke="#8b5cf6"/><g fill="#3ee6a8"><circle cx="44" cy="56" r="3" class="blink"/><circle cx="56" cy="56" r="3" class="blink b2"/><circle cx="44" cy="68" r="3" class="blink b3"/></g><g stroke="#4f8bff" stroke-width="2"><line x1="90" y1="50" x2="200" y2="50"/><line x1="90" y1="66" x2="180" y2="66"/><line x1="90" y1="82" x2="196" y2="82"/><line x1="90" y1="98" x2="170" y2="98"/></g><g fill="#8fb3ff"><rect x="88" y="108" width="10" height="14" rx="2"/><rect x="104" y="108" width="10" height="14" rx="2"/><rect x="120" y="108" width="10" height="14" rx="2"/><rect x="136" y="108" width="10" height="14" rx="2"/><rect x="152" y="108" width="10" height="14" rx="2"/><rect x="168" y="108" width="10" height="14" rx="2"/><rect x="184" y="108" width="10" height="14" rx="2"/></g></svg></div>
+    </div>
+
+    <div class="product-panel glass" id="tab-hmi">
+      <div>
+        <h3>Human Machine Interfaces</h3>
+        <p>Bright, responsive touch panels that give operators full control and instant insight into machine status.</p>
+        <div class="spec"><div><b>Touch displays</b>Multiple screen sizes</div><div><b>Alarms &amp; trends</b>Built-in diagnostics</div><div><b>Recipes</b>Quick product changeovers</div><div><b>Connectivity</b>PLC &amp; SCADA linked</div></div>
+      </div>
+      <div class="product-visual"><svg viewBox="0 0 240 160"><rect x="30" y="20" width="180" height="120" rx="10" fill="#14205a" stroke="#4f8bff"/><rect x="42" y="32" width="156" height="92" rx="6" fill="#070c26"/><polyline points="52,104 76,88 96,96 120,66 144,78 168,50 188,60" fill="none" stroke="#3ad6ff" stroke-width="3"/><rect x="52" y="40" width="40" height="10" rx="3" fill="#8b5cf6"/><rect x="150" y="40" width="38" height="10" rx="3" fill="#3ee6a8" class="blink"/></svg></div>
+    </div>
+
+    <div class="product-panel glass" id="tab-servo">
+      <div>
+        <h3>Servo Motors &amp; Amplifiers</h3>
+        <p>Precise, dynamic motion for high-speed positioning, synchronised axes and demanding applications.</p>
+        <div class="spec"><div><b>High precision</b>Accurate positioning</div><div><b>Dynamic response</b>Fast acceleration</div><div><b>Multi-axis</b>Synchronised motion</div><div><b>Auto-tuning</b>Faster commissioning</div></div>
+      </div>
+      <div class="product-visual"><svg viewBox="0 0 240 160"><rect x="40" y="50" width="110" height="70" rx="10" fill="#14205a" stroke="#4f8bff"/><g stroke="#4f8bff" opacity=".5"><line x1="60" y1="50" x2="60" y2="120"/><line x1="80" y1="50" x2="80" y2="120"/><line x1="100" y1="50" x2="100" y2="120"/></g><rect x="150" y="76" width="40" height="18" rx="4" fill="#8fb3ff"/><g transform="translate(205 85)"><g class="gear"><circle r="16" fill="none" stroke="#8b5cf6" stroke-width="6" stroke-dasharray="6 4"/></g></g></svg></div>
+    </div>
+
+    <div class="product-panel glass" id="tab-vfd">
+      <div>
+        <h3>Variable Frequency Drives</h3>
+        <p>Smooth, efficient speed control for motors, pumps and fans — reducing energy use and mechanical stress.</p>
+        <div class="spec"><div><b>Energy savings</b>Optimised motor control</div><div><b>Soft start</b>Less mechanical wear</div><div><b>Wide range</b>Small to large motors</div><div><b>Networked</b>Easy PLC integration</div></div>
+      </div>
+      <div class="product-visual"><svg viewBox="0 0 240 160"><rect x="80" y="14" width="80" height="132" rx="8" fill="#14205a" stroke="#4f8bff"/><rect x="92" y="28" width="56" height="26" rx="4" fill="#070c26" stroke="#3ad6ff"/><text x="120" y="46" text-anchor="middle" font-family="Space Grotesk" font-size="13" fill="#3ad6ff">50.0Hz</text><g fill="#8fb3ff"><rect x="96" y="64" width="14" height="10" rx="2"/><rect x="113" y="64" width="14" height="10" rx="2"/><rect x="130" y="64" width="14" height="10" rx="2"/></g><g stroke="#4f8bff" opacity=".5"><line x1="92" y1="90" x2="148" y2="90"/><line x1="92" y1="100" x2="148" y2="100"/><line x1="92" y1="110" x2="148" y2="110"/><line x1="92" y1="120" x2="148" y2="120"/></g></svg></div>
+    </div>
+
+    <div class="product-panel glass" id="tab-pneu">
+      <div>
+        <h3>Pneumatic Components</h3>
+        <p>Cylinders, valves, air preparation and fittings for clean, fast and dependable motion.</p>
+        <div class="spec"><div><b>Actuators</b>Cylinders &amp; grippers</div><div><b>Valves</b>Directional &amp; manifold</div><div><b>Air preparation</b>Filters, regulators, lubricators</div><div><b>Fittings</b>Tubing &amp; connectors</div></div>
+      </div>
+      <div class="product-visual"><svg viewBox="0 0 240 160"><rect x="30" y="62" width="130" height="36" rx="6" fill="#14205a" stroke="#4f8bff"/><rect x="160" y="74" width="60" height="12" rx="3" fill="#8fb3ff"><animate attributeName="width" values="20;60;20" dur="2.4s" repeatCount="indefinite"/></rect><rect x="40" y="40" width="28" height="22" rx="3" fill="#8b5cf6"/><rect x="110" y="40" width="28" height="22" rx="3" fill="#8b5cf6"/><circle cx="54" cy="51" r="3" fill="#3ee6a8" class="blink"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== INDUSTRIES ===================== -->
+<section id="industries">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow reveal">Industries</span>
+      <h2 class="reveal d1">Trusted across <span class="grad-text">demanding industries</span></h2>
+      <p class="reveal d2">Every sector has its own challenges. We design automation that fits the process, not the other way around.</p>
+    </div>
+    <div class="ind-grid">
+      <div class="ind glass reveal"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 4h12l4 4v12H4z"/><path d="M16 4v4h4M8 12h8M8 16h6"/></svg></div><h4>Paper</h4><p>Winding, sectional drives and web control.</p></div>
+      <div class="ind glass reveal d1"><div class="ico"><svg viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3"/><path d="M7 15h10"/></svg></div><h4>Life Sciences</h4><p>Precise, compliant and traceable processes.</p></div>
+      <div class="ind glass reveal d2"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v5M12 16v5M3 12h5M16 12h5"/></svg></div><h4>Tyre</h4><p>Mixing, building and curing automation.</p></div>
+      <div class="ind glass reveal d3"><div class="ico"><svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg></div><h4>EMS</h4><p>Electronics assembly and test automation.</p></div>
+      <div class="ind glass reveal"><div class="ico"><svg viewBox="0 0 24 24"><path d="M6 2h12l-1 5H7z"/><path d="M7 7l1 15h8l1-15"/><path d="M9 12h6"/></svg></div><h4>FMCG</h4><p>High-speed filling, packing and labelling.</p></div>
+      <div class="ind glass reveal d1"><div class="ico"><svg viewBox="0 0 24 24"><path d="M5 16l1.5-5A2 2 0 018.4 9.5h7.2a2 2 0 011.9 1.5L19 16"/><rect x="3" y="16" width="18" height="4" rx="1"/><circle cx="7" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/></svg></div><h4>Automotive</h4><p>Assembly lines, robotics and testing rigs.</p></div>
+      <div class="ind glass reveal d2"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 2s6 7 6 12a6 6 0 01-12 0c0-5 6-12 6-12z"/><path d="M9 15a3 3 0 003 3"/></svg></div><h4>Water Treatment</h4><p>Pumping, dosing and remote SCADA monitoring.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TECHNOLOGY PARTNERS ===================== -->
+<section id="partners">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow reveal">Technology Partners</span>
+      <h2 class="reveal d1">Powered by <span class="grad-text">world-class technology</span></h2>
+      <p class="reveal d2">We work with globally trusted automation brands to deliver dependable, long-life solutions.</p>
+    </div>
+    <div class="partners">
+      <div class="partner glass reveal">
+        <div class="wordmark">Mitsubishi Electric</div><div class="origin">Factory Automation</div>
+        <p>PLCs, HMIs, servo systems and drives for precise, high-performance machine control.</p>
+        <div class="chips"><span>PLC</span><span>HMI</span><span>Servo</span><span>VFD</span></div>
+      </div>
+      <div class="partner glass reveal d1">
+        <div class="wordmark">Schneider Electric</div><div class="origin">Energy &amp; Automation</div>
+        <p>Automation, power distribution and drive technology for efficient, connected plants.</p>
+        <div class="chips"><span>PLC</span><span>Drives</span><span>Panels</span><span>SCADA</span></div>
+      </div>
+      <div class="partner glass reveal d2">
+        <div class="wordmark">SMC Corporation</div><div class="origin">Pneumatic Technology</div>
+        <p>Pneumatic cylinders, valves, air preparation and fittings for reliable motion and handling.</p>
+        <div class="chips"><span>Cylinders</span><span>Valves</span><span>FRL</span><span>Fittings</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TEAM ===================== -->
+<section id="team">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow reveal">Our Team</span>
+      <h2 class="reveal d1">Engineers who <span class="grad-text">know the shop floor</span></h2>
+      <p class="reveal d2">A multidisciplinary team covering every stage of an automation project.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card glass reveal"><div class="avatar"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg></div><h4>Automation Engineers</h4><p>PLC, HMI and SCADA programming and commissioning.</p></div>
+      <div class="team-card glass reveal d1"><div class="avatar"><svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M9 6h6M9 10h6M9 14h3"/></svg></div><h4>Panel Design &amp; Build</h4><p>Electrical design, wiring and testing of control panels.</p></div>
+      <div class="team-card glass reveal d2"><div class="avatar"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg></div><h4>Motion &amp; Drives</h4><p>Servo, VFD and pneumatic system specialists.</p></div>
+      <div class="team-card glass reveal d3"><div class="avatar"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 00-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 005.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></div><h4>Service &amp; Support</h4><p>Breakdown support, upgrades and preventive maintenance.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== LEADERSHIP ===================== -->
+<section id="leadership">
+  <div class="container">
+    <div class="lead-card glass reveal">
+      <div class="lead-photo">
+        <img src="sandeep-kumar.jpg" alt="Sandeep Kumar, Managing Director"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="initials"><span class="grad-text">SK</span></div>
+      </div>
+      <div class="lead-body">
+        <span class="eyebrow">Leadership</span>
+        <h2 style="font-size:clamp(1.9rem,3.4vw,2.6rem)">A message from our <span class="grad-text">Managing Director</span></h2>
+        <blockquote>“Automation should make work simpler, safer and more productive. Our job is to build systems our customers can rely on — every shift, every day.”</blockquote>
+        <p>At Falcon, we believe great automation starts with listening. We take the time to understand each customer’s process, then combine trusted technology with careful engineering to deliver results that last.</p>
+        <p>We are equally committed to building the next generation of automation professionals through practical, industry-focused training.</p>
+        <div class="sig"><div><b>Sandeep Kumar</b><small>Managing Director, Falcon Automation &amp; Control Pvt. Ltd.</small></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TRAINING ===================== -->
+<section id="training">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow reveal">Training</span>
+      <h2 class="reveal d1">Build a career in <span class="grad-text">industrial automation</span></h2>
+      <p class="reveal d2">Hands-on training on real industrial hardware, guided by working engineers.</p>
+    </div>
+    <div class="split">
+      <div class="form-card glass reveal">
+        <h3>Existing Student Sign In</h3>
+        <p>Access your course material, schedule and progress.</p>
+        <form class="js-form" data-msg="Student sign-in will be available once the student portal is connected.">
+          <div class="field" style="margin-bottom:16px"><label for="sid">Student ID or Email</label><input id="sid" type="text" required autocomplete="username"></div>
+          <div class="field"><label for="spw">Password</label><input id="spw" type="password" required autocomplete="current-password"></div>
+          <div class="row-between"><label><input type="checkbox"> Remember me</label><a href="#contact">Forgot password?</a></div>
+          <button class="btn btn-primary" type="submit">Sign In</button>
+        </form>
+        <div class="areas" style="margin-bottom:0">
+          <span>PLC</span><span>HMI</span><span>SCADA</span><span>Servo</span><span>VFD</span><span>Panels</span><span>Pneumatics</span>
+        </div>
+      </div>
+
+      <div class="form-card glass reveal d1">
+        <h3>Apply for Training</h3>
+        <p>Fill in your details and our team will contact you about upcoming batches.</p>
+        <form class="js-form" data-msg="Thank you! Your application has been received. Our team will contact you soon.">
+          <div class="form-grid">
+            <div class="field"><label for="an">Full Name</label><input id="an" name="name" type="text" required autocomplete="name"></div>
+            <div class="field"><label for="ae">Email</label><input id="ae" name="email" type="email" required autocomplete="email"></div>
+            <div class="field"><label for="ap">Phone</label><input id="ap" name="phone" type="tel" required pattern="[0-9+\-\s]{10,15}" autocomplete="tel"></div>
+            <div class="field"><label for="ac">College / Course</label><input id="ac" name="college" type="text" required></div>
+            <div class="field full"><label for="aa">Preferred Training Area</label>
+              <select id="aa" name="area" required>
+                <option value="" disabled selected>Select an area</option>
+                <option>PLC Programming</option><option>HMI Development</option><option>SCADA Systems</option>
+                <option>Servo Systems</option><option>VFD / Drives</option><option>Control Panel Design</option>
+                <option>Pneumatics</option><option>Complete Industrial Automation</option>
+              </select></div>
+            <div class="field full"><label for="am">Message <em>(optional)</em></label><textarea id="am" name="message" placeholder="Tell us about your goals or any questions"></textarea></div>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit Application</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PORTALS ===================== -->
+<section id="portals">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow reveal">Portals</span>
+      <h2 class="reveal d1">Secure <span class="grad-text">access portals</span></h2>
+      <p class="reveal d2">Choose your portal to sign in.</p>
+    </div>
+    <div class="portal-tabs reveal" role="tablist">
+      <button class="ptab active" data-portal="user" role="tab">Sign In</button>
+      <button class="ptab" data-portal="team" role="tab">Team Sign In</button>
+      <button class="ptab" data-portal="md" role="tab">Managing Director</button>
+    </div>
+    <div class="portal-wrap reveal">
+      <div class="portal-panel form-card glass active" id="portal-user">
+        <div class="portal-head"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a7 7 0 0114 0v1"/></svg></div><div><h3>Sign In</h3><p>For customers and partners</p></div></div>
+        <form class="js-form" data-msg="Customer portal will be available once it is connected.">
+          <div class="field"><label for="u1">Email</label><input id="u1" type="email" required autocomplete="username"></div>
+          <div class="field"><label for="u2">Password</label><input id="u2" type="password" required autocomplete="current-password"></div>
+          <div class="row-between"><label><input type="checkbox"> Remember me</label><a href="#contact">Need help?</a></div>
+          <button class="btn btn-primary" type="submit">Sign In</button>
+        </form>
+      </div>
+      <div class="portal-panel form-card glass" id="portal-team">
+        <div class="portal-head"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2 21v-1a6 6 0 0112 0v1M16 4.5a3.5 3.5 0 010 7M22 21v-1a6 6 0 00-4-5.7"/></svg></div><div><h3>Team Sign In</h3><p>For Falcon engineers and staff</p></div></div>
+        <form class="js-form" data-msg="Team portal will be available once it is connected.">
+          <div class="field"><label for="t1">Employee ID</label><input id="t1" type="text" required autocomplete="username"></div>
+          <div class="field"><label for="t2">Password</label><input id="t2" type="password" required autocomplete="current-password"></div>
+          <div class="row-between"><label><input type="checkbox"> Remember me</label><a href="#contact">Forgot password?</a></div>
+          <button class="btn btn-primary" type="submit">Team Sign In</button>
+        </form>
+      </div>
+      <div class="portal-panel form-card glass" id="portal-md">
+        <div class="portal-head"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><circle cx="12" cy="11" r="2.5"/><path d="M8.5 17a4 4 0 017 0"/></svg></div><div><h3>Managing Director Sign In</h3><p>Restricted access</p></div></div>
+        <form class="js-form" data-msg="Managing Director portal will be available once it is connected.">
+          <div class="field"><label for="m1">Admin ID</label><input id="m1" type="text" required autocomplete="username"></div>
+          <div class="field"><label for="m2">Password</label><input id="m2" type="password" required autocomplete="current-password"></div>
+          <button class="btn btn-primary" type="submit">Secure Sign In</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow reveal">Contact</span>
+      <h2 class="reveal d1">Let’s automate <span class="grad-text">your next project</span></h2>
+      <p class="reveal d2">Talk directly with our Managing Director about your requirements.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-person glass reveal">
+        <div class="cp-top">
+          <div class="mini">
+            <img src="sandeep-kumar.jpg" alt="Sandeep Kumar"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="initials"><span class="grad-text">SK</span></div>
+          </div>
+          <div><h3>Sandeep Kumar</h3><small>Managing Director</small></div>
+        </div>
+        <a class="c-line" href="tel:+919627364000">
+          <span class="ico"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg></span>
+          <span><small>Phone</small><b>+91 96273 64000</b></span>
+        </a>
+        <a class="c-line" href="mailto:sandeep@falconautomations.com">
+          <span class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg></span>
+          <span><small>Email</small><b>sandeep@falconautomations.com</b></span>
+        </a>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a href="tel:+919627364000" class="btn btn-primary" style="flex:1">Call Now</a>
+          <a href="mailto:sandeep@falconautomations.com" class="btn btn-ghost" style="flex:1">Send Email</a>
+        </div>
+      </div>
+
+      <div class="form-card glass reveal d1">
+        <h3>Send an Enquiry</h3>
+        <p>Share a few details and we’ll get back to you.</p>
+        <form id="enquiryForm">
+          <div class="form-grid">
+            <div class="field"><label for="cn">Name</label><input id="cn" type="text" required></div>
+            <div class="field"><label for="cc">Company</label><input id="cc" type="text"></div>
+            <div class="field"><label for="ce">Email</label><input id="ce" type="email" required></div>
+            <div class="field"><label for="cp">Phone</label><input id="cp" type="tel"></div>
+            <div class="field full"><label for="cm">Requirement</label><textarea id="cm" required placeholder="Briefly describe your project or requirement"></textarea></div>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Enquiry</button>
+          <p class="form-note">Opens your email app with the message addressed to sandeep@falconautomations.com</p>
+        </form>
+      </div>
+    </div>
+
+    <div class="cta-band glass reveal" style="margin-top:60px">
+      <h2>Ready to upgrade your <span class="grad-text">production line?</span></h2>
+      <p>From a single machine to a complete plant, Falcon delivers automation that performs.</p>
+      <div class="hero-ctas">
+        <a href="tel:+919627364000" class="btn btn-primary">Call +91 96273 64000</a>
+        <a href="#training" class="btn btn-ghost">Apply for Training</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <a href="#home" class="brand">
+          <img class="logo-img" src="falcon-logo.png" alt="Falcon Automation & Control Pvt. Ltd." style="height:44px"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="logo-fallback">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 30 C14 18 26 12 44 8 C36 16 32 22 30 30 C26 26 20 26 14 30 C12 34 10 38 8 42 C8 36 6 33 4 30Z" fill="url(#lg)"/></svg>
+            <span><b>FALCON</b><small>Automation &amp; Control</small></span>
+          </span>
+        </a>
+        <p>Industrial automation and control solutions — PLC, HMI, SCADA, servo, VFD, control panels, pneumatics and complete system integration.</p>
+      </div>
+      <div><h5>Company</h5><ul><li><a href="#about">About Us</a></li><li><a href="#leadership">Leadership</a></li><li><a href="#team">Team</a></li><li><a href="#partners">Partners</a></li></ul></div>
+      <div><h5>Explore</h5><ul><li><a href="#solutions">Solutions</a></li><li><a href="#products">Products</a></li><li><a href="#industries">Industries</a></li><li><a href="#training">Training</a></li><li><a href="#portals">Portals</a></li></ul></div>
+      <div><h5>Contact</h5><ul><li><a href="tel:+919627364000">+91 96273 64000</a></li><li><a href="mailto:sandeep@falconautomations.com">sandeep@falconautomations.com</a></li><li><a href="#contact">Send an enquiry</a></li></ul></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> Falcon Automation &amp; Control Pvt. Ltd. All rights reserved.</span>
+      <span>Engineered for performance · Built for reliability</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<div class="toast" id="toast" role="status"><i></i><span id="toastMsg"></span></div>
+
+<script src="script.js"></script>
+</body>
+</html>
